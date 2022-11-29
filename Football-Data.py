@@ -1,19 +1,11 @@
 # Packages
+import datapackage
 import pandas as pd
 import numpy as np
 import seaborn
 import json
 
-# jogos_hoje = pd.read_csv()
 
-nome = 'gerrad'
-camisa = 8
+PL_21_22 = pd.read_csv('Original_Data/PL_21-22.csv')
 
-#Condicionais
-
-if camisa == 10:
-    print("jogo de futibas do", nome, 'que veste a camisa',camisa)
-elif nome == 'gerrard':
-    print("jogo de futibas do", nome, 'que veste a camisa',camisa)
-else:
-    print("jogo de futibas do", nome, 'que veste a camisa',camisa)
+print(PL_21_22.head())
