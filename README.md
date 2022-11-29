@@ -1,2 +1,4 @@
 # Football
-ETL Data to football matches. Specially Clube do Remo
+#ETL Data to football matches.⚽ 📊 
+
+## Building a database and visuals for better understanding football matches
